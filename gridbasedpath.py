@@ -7,11 +7,10 @@ import matplotlib.pyplot as plt
 from matplotlib.colors import ListedColormap
 from matplotlib.patches import Patch
 
-# ============================================================
 # GRID-BASED PATH PLANNING
 # Algorithms: Breadth-First Search (BFS) and A*
 # 0 = free cell, 1 = obstacle
-# ============================================================
+
 
 # 1. Create the grid map
 ROWS = 15
