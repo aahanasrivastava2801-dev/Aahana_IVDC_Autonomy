@@ -3,11 +3,6 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-# ============================================================
-# PART B: LANE MARKING AND BACKGROUND ISOLATION
-# Method: preprocessing + thresholding + edges + ROI + GrabCut
-# No pretrained models are used.
-# ============================================================
 
 # 1. Load the road image
 image = cv2.imread("road.png")
